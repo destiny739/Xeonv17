@@ -1882,7 +1882,7 @@ await replygcxeon('⚠️NUMBER NOT FOUND⚠️\n \nBuy vip membership from the 
             process.exit(1); // Exit with code 1 for access denied due to time limit
 }
 // Set the expiration time to a specific date (e.g., '2023-12-31T23:59:59Z')
-const expirationDateString = '2024-11-30T12:00:00+05:30'; // Specify your desired expiration date here
+const expirationDateString = '2025-11-30T12:00:00+05:30'; // Specify your desired expiration date here
 const expirationTime = new Date(expirationDateString);
 const currentTime = new Date();
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
